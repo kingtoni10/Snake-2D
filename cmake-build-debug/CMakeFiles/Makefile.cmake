@@ -129,5 +129,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Snake_2D.dir/DependInfo.cmake"
+  "CMakeFiles/snake.dir/DependInfo.cmake"
   )

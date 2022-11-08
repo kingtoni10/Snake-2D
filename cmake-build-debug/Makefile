@@ -116,24 +116,48 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Snake_2D
+# Target rules for targets named snake
 
 # Build rule for target.
-Snake_2D: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Snake_2D
-.PHONY : Snake_2D
+snake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 snake
+.PHONY : snake
 
 # fast build rule for target.
-Snake_2D/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake_2D.dir\build.make CMakeFiles/Snake_2D.dir/build
-.PHONY : Snake_2D/fast
+snake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/build
+.PHONY : snake/fast
+
+game.obj: game.cpp.obj
+.PHONY : game.obj
+
+# target to build an object file
+game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/game.cpp.obj
+.PHONY : game.cpp.obj
+
+game.i: game.cpp.i
+.PHONY : game.i
+
+# target to preprocess a source file
+game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/game.cpp.i
+.PHONY : game.cpp.i
+
+game.s: game.cpp.s
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/game.cpp.s
+.PHONY : game.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake_2D.dir\build.make CMakeFiles/Snake_2D.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -141,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake_2D.dir\build.make CMakeFiles/Snake_2D.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Snake_2D.dir\build.make CMakeFiles/Snake_2D.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snake.dir\build.make CMakeFiles/snake.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +184,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Snake_2D
+	@echo ... snake
+	@echo ... game.obj
+	@echo ... game.i
+	@echo ... game.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

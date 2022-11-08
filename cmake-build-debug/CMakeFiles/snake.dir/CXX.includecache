@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/game.cpp
+game.h
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/game.h
+GL/glut.h
+-
+GL/gl.h
+-
+ctime
+-
+
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/game.h
+
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/main.cpp
+GL/gl.h
+-
+GL/glut.h
+-
+game.h
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/game.h
+stdlib.h
+-
+
