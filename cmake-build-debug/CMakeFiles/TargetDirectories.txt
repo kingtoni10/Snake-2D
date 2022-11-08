@@ -1,0 +1,3 @@
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/cmake-build-debug/CMakeFiles/Snake_2D.dir
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/cmake-build-debug/CMakeFiles/rebuild_cache.dir
