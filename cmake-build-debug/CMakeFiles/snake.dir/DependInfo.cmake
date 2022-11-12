@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/game.cpp" "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/cmake-build-debug/CMakeFiles/snake.dir/game.cpp.obj"
-  "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/main.cpp" "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake 2D/cmake-build-debug/CMakeFiles/snake.dir/main.cpp.obj"
+  "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake-2D/game.cpp" "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake-2D/cmake-build-debug/CMakeFiles/snake.dir/game.cpp.obj"
+  "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake-2D/main.cpp" "D:/aUlm/semesters/sem 5 WS 2022/computer graphics/Snake-2D/cmake-build-debug/CMakeFiles/snake.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
